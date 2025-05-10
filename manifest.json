@@ -3,12 +3,17 @@
   "author": "John Navas",
   "permissions": [
     "contextMenus",
+    "storage",
     "tabs"
   ],
-  "version": "0.3",
+  "version": "0.4.2",
   "description": "Archive webpage with archive.today",
   "background": {
     "scripts": ["background.js"]
+  },
+ "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
   },
   "browser_action": {
      "default_icon": {

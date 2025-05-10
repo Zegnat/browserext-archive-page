@@ -3,17 +3,24 @@
 // 1. Toolbar icon to send current tab to archive.today in new tab
 // 2. Page context menu to search archive.today for the page URL
 // 3. Link context menu items to Archive or Search with archive.today
+// Options to control activation of new archive.today tabs (SAVED IN LOCAL, NOT SYNC)
 
 // Archive page URL
-function doArchivePage(url) {
+function doArchivePage(url, act) {
+  console.log('doArchivePage act: ' + act); // DEBUG
   chrome.tabs.create({
-    url: 'https://archive.today/?run=1&url=' + encodeURIComponent(url)
+    url: 'https://archive.today/?run=1&url=' + encodeURIComponent(url),
+    active: act
   });
 }
 
 // Listen for toolbar button click
 chrome.browserAction.onClicked.addListener(function(tab) {
-  doArchivePage(tab.url);
+  // get activate option
+  chrome.storage.local.get({activateButtonNew: true}, function(result) {
+    console.log('activateButtonNew: ' + result.activateButtonNew); // DEBUG
+    doArchivePage(tab.url, result.activateButtonNew);
+  });
 });
 
 // Page context menu: Search for page URL
@@ -46,13 +53,36 @@ var parentId = chrome.contextMenus.create({
 
 // Archive link
 function myArchive(info, tab) {
-  doArchivePage(info.linkUrl);
+  // get activate option
+  chrome.storage.local.get({activateArchiveNew: true}, function(result) {
+    console.log('activateArchiveNew: ' + result.activateArchiveNew); // DEBUG
+    doArchivePage(info.linkUrl, result.activateArchiveNew);
+  });
 }
 
 // Search link
 function mySearch(info, tab) {
-  var url = info.linkUrl || tab.url;
-  chrome.tabs.create({
-    url: "https://archive.today/" + url
-  });
+  console.log('info.linkUrl: ' + info.linkUrl); // DEBUG
+  console.log('tab.url: ' + tab.url); // DEBUG
+  if (info.linkUrl) {
+    // get activate option
+    chrome.storage.local.get({activateSearchNew: true}, function(result) {
+      console.log('activateSearchNew: ' + result.activateSearchNew); // DEBUG
+      chrome.tabs.create({
+        url: "https://archive.today/" + info.linkUrl,
+        active: result.activateSearchNew
+      });
+    });
+  } else {
+    // get activate option
+    chrome.storage.local.get({activatePageNew: true}, function(result) {
+      console.log('activatePageNew: ' + result.activatePageNew); // DEBUG
+      chrome.tabs.create({
+        url: "https://archive.today/" + tab.url,
+        active: result.activatePageNew
+      });
+    });
+  }
 }
+
+// END
