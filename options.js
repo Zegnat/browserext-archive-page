@@ -1,4 +1,4 @@
-// Saves options to firefox.storage (LOCAL, NOT SYNC)
+// Saves options to chrome.storage (LOCAL, NOT SYNC)
 function save_options() {
     var iTabOption = document.getElementById('tabEnd').checked ? 1 : (document.getElementById('tabAct').checked ? 2 : 0);
     var bButtonNew = document.getElementById('cbButtonNew').checked;
@@ -22,7 +22,7 @@ function save_options() {
 }
 
 // Restores select box and checkbox state using the preferences
-// stored in chrome.storage.
+// stored in chrome.storage (LOCAL, NOT SYNC)
 function restore_options() {
     // Default tab option is Adjacent (0, 1: end, 2: active)
     // Use default value true for all activate options.

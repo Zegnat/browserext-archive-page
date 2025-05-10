@@ -8,7 +8,7 @@
 // For Firefox, options saved in local, not sync!
 
 const URLA = 'https://archive.today/?run=1&url='; // URL to invoke archive.today
-const URLS = 'https://archive.today/' // URL to search archive.today
+const URLS = 'https://archive.today/search/?q=' // URL to search archive.today
 
 // Archive page URL
 function doArchivePage(uri, act) {

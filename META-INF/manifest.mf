@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 
 Name: background.js
 Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: mcCjJbsGo+XIooiZ/KSIoIDCZdU=
-SHA256-Digest: HO48Vi1W3A90d32o3CYndWMxrHxxLpDGT0PEKvzw8m8=
+SHA1-Digest: q0V1v8M1SBm0HU8zgCBzlGYLVNo=
+SHA256-Digest: np1iTtdfPSRwrXkDEOptWrkSdwb5HmmRZVANCDkVpos=
 
 Name: copyright.txt
 Digest-Algorithms: SHA1 SHA256
@@ -12,8 +12,8 @@ SHA256-Digest: T2D0XrqRcRYURKeWUpNCWbxqSXMdU5AcmnWxjo3r4DE=
 
 Name: manifest.json
 Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: kIOFexrHJpaJqpifbSQxSjOi1bg=
-SHA256-Digest: 5x8L+F/e6L2leL7TRQd6A4xQ5FogG8wkfV24haQN83M=
+SHA1-Digest: xyveZLqJTba/M5AhAyQwft7hFuY=
+SHA256-Digest: cGi+VOtRYBdpx6+5dPWgjg27BxeGd1Wj+EBxH9jWSow=
 
 Name: options.html
 Digest-Algorithms: SHA1 SHA256
@@ -22,8 +22,8 @@ SHA256-Digest: c6+o1vtJMJDViJnjOkUr4p6uX3N7Lc2z6tSW52J4fWU=
 
 Name: options.js
 Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: CMTUVKtnunFoyuwtJdft90hr3FM=
-SHA256-Digest: R7ArNwWNJYU1Gl6ZO8DqVRWXPhursq6uVOOBaLcQLLo=
+SHA1-Digest: 8yBoDNSsTzmYFhN4UQPFjatJheI=
+SHA256-Digest: rVHaCO8yvjZUYmC3QpDvfityBQEl7YmS4g87ja0JqlA=
 
 Name: images/Share2Archive-128.png
 Digest-Algorithms: SHA1 SHA256
@@ -57,11 +57,11 @@ SHA256-Digest: 3BEV2qmWWC0QA/li2TOckIeeg7p/RIcwWofJeSyZw/Q=
 
 Name: META-INF/cose.manifest
 Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: aouermXP12bgPnSSzWKuHcYKWwY=
-SHA256-Digest: pzeBeO45mBqsQKg59eWT0AeRi8M1iZeophyJwCQjT1Q=
+SHA1-Digest: O44rpACUXJU2X1HyVmQeeu0jZ70=
+SHA256-Digest: YcvfF1YWs4FTmbeTUfVEudAK1nG6qZ8u1Z2hLiwZ6rA=
 
 Name: META-INF/cose.sig
 Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: qyRCniORy+9GPL9hMpjbkXN/0dg=
-SHA256-Digest: 7E90aD4BUR5pfmd41cb6DSzlmNn6IxfqWaRxRPrFR60=
+SHA1-Digest: MoMcpWDozZcwQMMvlHYOv6AjYlw=
+SHA256-Digest: bERskHZzopSxNrWuURUDmxFgXCxH7jDUCdjgXQduhsI=
 
