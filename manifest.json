@@ -2,11 +2,14 @@
   "name": "Archive Page",
   "author": "John Navas",
   "permissions": [
+    "activeTab",
     "contextMenus",
-    "storage",
-    "tabs"
+    "storage"
   ],
-  "version": "0.6.0",
+  "optional_permissions": [
+    "notifications"
+  ],
+  "version": "0.9.0",
   "description": "Archive webpage with archive.today",
   "background": {
     "scripts": [
@@ -32,5 +35,10 @@
     "48": "images/Share2Archive-48.png",
     "128": "images/Share2Archive-128.png"
   },
-  "manifest_version": 2
+  "manifest_version": 2,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{5b22cb75-8e43-4f2a-bb9b-1da0655ae564}"
+    }
+  }
 }

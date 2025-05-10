@@ -83,6 +83,26 @@ chrome.browserAction.onClicked.addListener(function(tab) {
     });
 });
 
+// Add a listener for ONBOARDING
+chrome.runtime.onInstalled.addListener((details) => {
+    switch (details.reason) {
+        case chrome.runtime.OnInstalledReason.UPDATE:
+            chrome.permissions.contains({ permissions: ['notifications'] }, (enabled) => {
+                if (enabled) { // The extension has the permission
+                    chrome.notifications.create({
+                        type: 'basic', iconUrl: 'images\\Share2Archive-48.png', title: 'Archive Page extension',
+                        priority: 0, message: 'Updated.\nSee Options to customize.'
+                    });
+                    chrome.runtime.openOptionsPage();
+                }
+            });
+            break;
+        case chrome.runtime.OnInstalledReason.INSTALL:
+            chrome.runtime.openOptionsPage();
+            break;
+    }
+});
+
 // Page context menu: Search for page URL
 chrome.contextMenus.create({
     "title": "Search archive.today for page",
@@ -114,7 +134,7 @@ var parentId = chrome.contextMenus.create({
 // Archive link
 function myArchive(info, tab) {
     // get activate option
-    chrome.storage.local.get({ activateArchiveNew: true }, function(result) {
+    chrome.storage.local.get({ activateArchiveNew: false }, function(result) {
         console.log('activateArchiveNew: ' + result.activateArchiveNew); // DEBUG
         doArchivePage(info.linkUrl, result.activateArchiveNew);
     });
