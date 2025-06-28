@@ -5,7 +5,7 @@
 
 > Archive webpage with archive.today
 
-* [Archive Page by John Navas on AMO][AMO].
+* <s>Archive Page by John Navas on AMO</s>.
 * [Official GitHub repository][GitHub].
 
 ## This repository is a mirror
@@ -16,6 +16,15 @@ before installation.
 
 There is also a mirror repository for the Chrome version:
 [karlhorky/mirror-jnavas2-archive-page][mirror].
+
+## The Firefox Add-on is no longer on AMO
+
+As of at least 2025-06-28 the (dead link) [AMO page][AMO] has been offline. As
+of 2025-06-20 [the official GitHub repository][a754223] dropped support.
+
+The final version of the add-on that has been distributed on AMO was **version
+0.9.0**. This was also the final version available under the **MIT License**.
+See the [Version 0.9.0 commit on this repository][c0f51de].
 
 ## Notes on historic releases
 
@@ -64,3 +73,5 @@ mirrored here.
 [5c72588]: https://github.com/JNavas2/Archive-Page/commit/5c7258852762da96bd1491933de5df770c00ece7
 [e2b3994]: https://github.com/JNavas2/Archive-Page/commit/e2b399422977ce7646f27ebf090465b7b69be72f
 [a69afc1]: https://github.com/JNavas2/Archive-Page/commit/a69afc100c7777f2d09c0a27eb5ed76f18e829bd
+[a754223]: https://github.com/JNavas2/Archive-Page/commit/a7542232532189b211e719445c5c57687a442c05
+[c0f51de]: https://github.com/Zegnat/browserext-archive-page/commit/c0f51de19aebd77cbfc34be34d33e72613595fb9
