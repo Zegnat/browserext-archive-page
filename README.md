@@ -1,4 +1,4 @@
-# ![](images/ArchivePage-32.png) Archive Page (Firefox Add-on)
+# ![](images/icon-32.png) Archive Page (Firefox Add-on)
 
 ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Zegnat/browserext-archive-page)
 ![GitHub License](https://img.shields.io/github/license/Zegnat/browserext-archive-page)
