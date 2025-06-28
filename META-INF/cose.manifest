@@ -7,8 +7,8 @@ SHA256-Digest: kuOXWnX/ZL4grWvRMP6BGRm9xJ5biJ6yOS4lJTnZnCI=
 
 Name: manifest.json
 Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: mec9TcqGFlhWVGNePK52BorKd60=
-SHA256-Digest: JUnHSwr/qC3LayVeZyAYYfYpjoAux6L/s6xqI/Xkv38=
+SHA1-Digest: k1J5yYXeDgoaGllQLRFMRjxPYng=
+SHA256-Digest: GOHpT1tZXviU4a6YlayzWvIVPpsC3br3jp3yLGeSLKw=
 
 Name: background.js
 Digest-Algorithms: SHA1 SHA256
@@ -19,36 +19,6 @@ Name: options.js
 Digest-Algorithms: SHA1 SHA256
 SHA1-Digest: HB0DGh3uJ/wkW/NeS8YtNW3812A=
 SHA256-Digest: 6y55z/XrCNLjQQ6IrUKFY1eIDPgMe0Y+MhTp991q9UA=
-
-Name: releases/demo3.png
-Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: 71evBzAjQh33QLYQjxtLrWS0mLk=
-SHA256-Digest: quNfk3Jtx34BvGviXfqlOUHrLohIEIrhkVnyBrkpyzA=
-
-Name: releases/demo2.png
-Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: UZEV1DZnbrVNC9txk1FndcJDkJs=
-SHA256-Digest: QWVgt0gM85Az0hMLPZqWAaqBoK8qiVlwsyH/+Hd9y5U=
-
-Name: releases/options.png
-Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: DnHysgCuPy+Au3uOahFMgdDHps4=
-SHA256-Digest: 6OH7/Z/j19GT98LJ5R4A6Yo1ozd3OVFZKVro7sLuaX4=
-
-Name: releases/android.png
-Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: /F1K5mG8cmbLlpBTrC7MoJw+pxw=
-SHA256-Digest: SrJjOgmKfqbiRpvkuLj7qA5T+FXtbVmCHMh9l7mjFgg=
-
-Name: releases/demo4.png
-Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: knNxUqlXevGt0tzDpCiTwHKAlbs=
-SHA256-Digest: jrBNaqwjs2ysm46Y2fFP7DZvcLHEEM6JBuQlFBUMXf0=
-
-Name: releases/demo1.png
-Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: 04HUgv37UdS5OsM8xsoWxDyJqRk=
-SHA256-Digest: f8CibSaL4KUVrAxYTcIlRiXAXLMkuV24/KYkohbcqmE=
 
 Name: images/icon-24.png
 Digest-Algorithms: SHA1 SHA256
