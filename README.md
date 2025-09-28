@@ -2,10 +2,11 @@
 
 ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/Zegnat/browserext-archive-page)
 ![GitHub License](https://img.shields.io/github/license/Zegnat/browserext-archive-page)
+![Mozilla Add-on Version](https://img.shields.io/amo/v/archive-page)
 
 > Archive webpage with archive.today
 
-* <s>Archive Page by John Navas on AMO</s>.
+* [Archive Page by John Navas on AMO][AMO].
 * [Official GitHub repository][GitHub].
 
 ## This repository is a mirror
@@ -17,20 +18,14 @@ reviewed before installation.
 There is also a mirror repository for the Chrome version:
 [karlhorky/mirror-jnavas2-archive-page][mirror].
 
-## The Firefox Add-on is no longer on AMO
-
-As of at least 2025-06-28 the (dead link) [AMO page][AMO] has been offline. As
-of 2025-06-20 [the official GitHub repository][a754223] dropped support.
-
-The final version of the add-on that has been distributed on AMO was **version
-0.9.0**. This was also the final version available under the **MIT License**.
-See the [Version 0.9.0 commit on this repository][c0f51de].
-
 ## Notes on historic releases
 
-It seems like the release history of the add-on was removed from AMO when 0.9.0
-released. These old versions are also untracked by the official repository.
-They are mirrored here for posterity.
+When the add-on was reinstated on AMO with version 1.2.1, all versions prior to
+it were removed from its version history. Exactly when this happened is unknown
+but at the latest [on 2025-08-06][d980b69]
+
+Versions prior to 0.9.0 were already removed from AMO and also untracked by the
+official repository. They are mirrored here for posterity.
 
 All old versions were obtained through [the Wayback Machine][IA]. The exact URLs
 are available in each separate version commit. See [the history of the “version
@@ -55,5 +50,4 @@ licence allows for publication and distribution.
 [mirror]: https://github.com/karlhorky/mirror-jnavas2-archive-page
 [IA]: https://web.archive.org/
 [history]: https://archive.today/https://addons.mozilla.org/en-US/firefox/addon/archive-page/versions/
-[a754223]: https://github.com/JNavas2/Archive-Page/commit/a7542232532189b211e719445c5c57687a442c05
-[c0f51de]: https://github.com/Zegnat/browserext-archive-page/commit/c0f51de19aebd77cbfc34be34d33e72613595fb9
+[d980b69]: https://github.com/JNavas2/Archive-Page/commit/d980b694700565a5c0f2f617693a864306d64f03
