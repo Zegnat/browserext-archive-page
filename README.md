@@ -39,11 +39,12 @@ The add-on licence has been distributed inside the XPI file from version 0.3 to
 
 From version 0.9.1 onward the licence has not been packaged with the add-on,
 instead this repository includes the licence that could be found in the official
-repository at the time of publication.
+repository at the time of publication. No origin for these licences has been
+identified, nor do they seem to have an SPDX identifier.
 
-No origin for these licences has been identified, nor do they seem to have an
-SPDX identifier. This repository will continue to track versions as long as the
-licence allows for publication and distribution.
+[On 2025-07-04][84409be] the official repository relicensed under a standard
+MIT licence text. This mirror repository copied this on [2025-09-28][dbe628d],
+when adding version 1.2.1 from AMO. The release [was listed on AMO][snapshot] as having its “code released under [MIT License][spdx]”.
 
 [AMO]: https://addons.mozilla.org/firefox/addon/archive-page/
 [GitHub]: https://github.com/JNavas2/Archive-Page
@@ -51,3 +52,7 @@ licence allows for publication and distribution.
 [IA]: https://web.archive.org/
 [history]: https://archive.today/https://addons.mozilla.org/en-US/firefox/addon/archive-page/versions/
 [d980b69]: https://github.com/JNavas2/Archive-Page/commit/d980b694700565a5c0f2f617693a864306d64f03
+[84409be]: https://github.com/JNavas2/Archive-Page/commit/84409be0b749971f42af225fe9b3af9bd374350f
+[dbe628d]: https://github.com/Zegnat/browserext-archive-page/commit/dbe628d9afc7b88cbd674ee297665380409cb536
+[snapshot]: https://web.archive.org/web/20250928185938/https://addons.mozilla.org/en-US/firefox/addon/archive-page/versions/
+[spdx]: https://spdx.org/licenses/MIT.html
