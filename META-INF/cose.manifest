@@ -27,18 +27,18 @@ SHA256-Digest: TmYVzfMCdOGkUeh4WvPtR1Kln9RRvuFKBiRXRD8igcM=
 
 Name: welcome.html
 Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: uh8/Y9Nl/w0u58nmAb6ciW1sycc=
-SHA256-Digest: 3k5lbzZ9b5vGqYM2EWr+KQEeaGA/V6oNU0xDwugUSCM=
+SHA1-Digest: WPNVNEvs369DnIhk7/JDr3BCBkU=
+SHA256-Digest: eq9lXLMoWRBbbSmTnyNKCHyCeUoth4tfGCkftwQ9lMc=
 
 Name: manifest.json
 Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: BGtOld/XEYldyeLCFPqgCRoCFoI=
-SHA256-Digest: KDRN5RY9V5Pz6CwtHW6LlPCfLhN/u5LFFVfdzjO8fCc=
+SHA1-Digest: Y0aPBLoSBVIZ5tHPsoov5fCt8yE=
+SHA256-Digest: YNzBAAooTPnKhrvOSWmRlHztnSdKY+zl7k5E0do+e4c=
 
 Name: background.js
 Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: rPJqTEgCeSFPfWJ9eXFpCwNkWGU=
-SHA256-Digest: D4Pnv+YrW9pX4WBN5pZEZp7QcNGnXOUVkZ5y2A6cQxw=
+SHA1-Digest: ybGx6W1QlthhM1lCQjux4O2SLLU=
+SHA256-Digest: +xFsGTAtTR1wjlOWlXS/1/YS5hgER5KhTAyCKtX+oK8=
 
 Name: dropdown.html
 Digest-Algorithms: SHA1 SHA256
